@@ -1,4 +1,4 @@
-Welcome to Fuzzgoat
+Welcome to Fuzzgoat - forked from/thanks to fuzzstati0n
 ===================
 
 This C program has been deliberately backdoored with several memory corruption bugs to test the efficacy of fuzzers and other analysis tools. Each vulnerability is clearly commented in fuzzgoat.c. Under input-files/ are files to trigger each vulnerability.
@@ -11,11 +11,9 @@ Install AFL (American Fuzzy Lop)
 
 While Fuzzgoat can be attacked using any fuzzer, we like AFL. To install it:
 
-1. Download AFL: [http://lcamtuf.coredump.cx/afl/releases/afl-latest.tgz](http://lcamtuf.coredump.cx/afl/releases/afl-latest.tgz)
+1. Download AFL: [https://github.com/google/AFL](https://github.com/google/AFL)
 
-2. Build AFL with `make install`
-
-3. See the AFL quick start guide for more info: [http://lcamtuf.coredump.cx/afl/QuickStartGuide.txt](http://lcamtuf.coredump.cx/afl/QuickStartGuide.txt) 
+2. See the AFL quick start guide for more info: [http://lcamtuf.coredump.cx/afl/QuickStartGuide.txt](http://lcamtuf.coredump.cx/afl/QuickStartGuide.txt) 
 
 
 Building Fuzzgoat
